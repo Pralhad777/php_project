@@ -1,0 +1,65 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+.logo-container {
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  margin-top: 0;
+}
+
+.company-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  position: fixed;
+  margin-top: 0;
+}
+img{
+    border-radius: 50px;
+}
+#profile{
+    margin-left: 350px;
+}
+  
+  .sidebar {
+   
+    padding: 200px;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow:auto;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #83b4a2;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-top: 150px;
+    margin-left: 300px;
+    padding: 1px 16px;
+   
+  }

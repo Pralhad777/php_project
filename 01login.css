@@ -1,0 +1,79 @@
+html{
+    display: flex;
+}
+body{
+    background-image:url("school.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    margin-left: 220px;
+}
+.logo-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.company-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+img{
+    border-radius: 50px;
+}
+.form-center {
+    
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+form{
+    
+    
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 7px 5px 10px 2px rgba(0,0,0,.8);
+    width: 250px;
+    padding-left:20px;
+    padding-bottom: 25px;
+}
+.input{
+    width: 225px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 16px;
+    border-radius: 5px;
+    border-style: double;
+    border-collapse: collapse;
+}
+input:hover{
+    border-color: aqua;
+}
+select:hover{
+    border-color: aqua;
+
+}
+select{
+    border-radius: 5px;
+    width: 232px;
+    height: 30px;
+    font-size: 12px;
+    border:2px double grey;
+}
+button{
+    border:2px double grey;
+    border-radius: 5px;
+    width: 232px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 16px;
+    font-family:fantasy;
+    background-color: rgb(177, 224, 224);
+}
+button:hover{
+    border-color: aqua;
+    font-size: 17px;
+    background-color: rgb(50, 128, 95);
+}
