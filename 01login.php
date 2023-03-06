@@ -19,24 +19,24 @@
         </div>
       </header>
     <div class="form-center">
-        <form action="02home.php" method="post">
+        <form action="02homequery.php" method="post">
             <h2 style="padding-left: 75px;">Log In</h2>
             <label for="name">Name</label> <br>
-                <input type="text" id="name" name="name" class="input" placeholder="Enter your Name" autofocus>
+                <input type="text" id="name" name="name" class="input" placeholder="Enter your Name" autofocus >
             <br><br>
             <label for="mail">Email</label> <br>
-                <input type="email" id="mail" name="email" class="input" placeholder="Enter your Email"> 
+                <input type="email" id="mail" name="email" class="input" placeholder="Enter your Email" > 
             <br><br>
             <label for="pwd">Password</label> <br>
-                <input type="password" id="pwd" name="password" class="input" placeholder="Enter your Password">
+                <input type="password" id="pwd" name="password" class="input" placeholder="Enter your Password" >
             <br><br>
             <label for="relation">Log in</label> <br>
-            <select id="relation" name="relation">
+            <select id="relation" name="relation" >
                 <option value="student">as Student</option>
                 <option value="teacher">as Teacher</option>
             </select>
             <br><br><br>
-            <div> <button type="submit">SUBMIT</button></div>
+            <div> <button id='submit' type="submit">SUBMIT</button></div>
         </form>
     </div>
 </body>

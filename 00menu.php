@@ -73,6 +73,18 @@ nav a:hover {
 	</style>
 </head>
 <body>
+<?php
+
+$ID = $_SESSION['ID'];
+//retriveing the primary key for search of data
+//$ID = $_GET['ID'];
+/*$query = "SELECT * FROM students WHERE ID =$ID";
+
+if ($result = $mysqli->query($query)) {
+		$ID = $result_ar['ID'];
+	}
+	*/
+echo "
 	<header>
 		<div class='logo'>
 			<img src='bunny.jpg' height='65' width='65' style='border-radius:20%;' alt='Logo'>
@@ -85,13 +97,20 @@ nav a:hover {
 		</div>
 	</header>
 	<nav>
+
 		<ul>
-			<li><a href='#'>Home</a></li>
-			<li><a href='#'>Performance</a></li>
-			<li><a href='#'>Advice</a></li>
-			<li><a href='#'>About</a></li>
-			<li><a href='#'>Contact</a></li>
+			<li><a href='02home.php?ID=$ID'>Home</a></li>
+			<li><a href='performance.php?ID=$ID'>Performance</a></li>
+			<li><a href='assignment.php?ID=$ID'>Assignment</a></li>
+			<li><a href='advice.php?ID=$ID'>Advice</a></li>
+			<li><a href='about.php?ID=$ID'>About</a></li>
+			<li><a href='contact.php?ID=$ID'>Contact</a></li>
 		</ul>
 	</nav>
+	"
+	//?ID=".$_SESSION['ID']."
+
+?>
 </body>
 </html>
+
