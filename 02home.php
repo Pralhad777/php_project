@@ -75,7 +75,6 @@ if(isset($_POST['upload'])){
         move_uploaded_file($file_tmp, $destination_file);
         
         //sending the path into DB
-        //Some Logical Mistake in code
         // connecting to mysqli -> school 
         include 'db.php';
 
